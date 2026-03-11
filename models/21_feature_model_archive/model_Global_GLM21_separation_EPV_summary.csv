@@ -1,0 +1,2 @@
+"model","training_set","total_n_train","pred_below_0001","pred_above_0999","n_extreme","pct_extreme","sep_flag","n_events_train","n_predictors","EPV"
+"Global GLM-21","Lasso80train (80% split)",91,47,44,91,100,TRUE,44,21,2.1

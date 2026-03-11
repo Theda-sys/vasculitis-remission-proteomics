@@ -1,0 +1,2 @@
+"model","n","events","auc","auc_lo","auc_hi","sens","sens_lo","sens_hi","spec","spec_lo","spec_hi","ppv","ppv_lo","ppv_hi","npv","npv_lo","npv_hi","TP","TN","FP","FN"
+"7-protein concentration",84,43,0.908,0.847,0.968,0.86,0.721,0.947,0.756,0.597,0.876,0.787,0.643,0.893,0.838,0.68,0.938,37,31,10,6

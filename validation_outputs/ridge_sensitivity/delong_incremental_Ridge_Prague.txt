@@ -1,0 +1,5 @@
+DeLong incremental — Prague, Ridge protein score [SUPPLEMENT]
+  Ridge protein vs CRP alone:        ΔAUC=-0.0393 p=0.1019
+  Ridge protein vs protein+CRP:      ΔAUC=+0.0021 p=0.4454
+  Ridge protein vs protein+ANCA:     ΔAUC=+0.0007 p=0.7594
+  Ridge protein vs protein+CRP+ANCA: ΔAUC=+0.0034 p=0.3891

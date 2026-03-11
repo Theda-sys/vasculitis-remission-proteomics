@@ -1,0 +1,8 @@
+Flags triggered: 3 / 5
+sep_flag   : TRUE
+coef_flag  : TRUE
+firth_flag : FALSE
+epv_flag   : TRUE
+cal_flag   : FALSE
+
+HIGH concern (3/5 flags). Quasi-complete separation likely explains high AUC. Primary inference should rest on external validation. Report Firth AUC, calibration slope, and EPV in the rebuttal.

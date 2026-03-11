@@ -1,0 +1,3 @@
+model,total_n,pred_below_0001,pred_above_0999,n_extreme,pct_extreme
+Berlin GLM (train),104,34,19,53,51
+Berlin Ridge (train),104,1,0,1,1

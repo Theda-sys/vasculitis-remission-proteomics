@@ -1,0 +1,5 @@
+model,pred_below_0001,pred_above_0999,total_n
+Berlin GLM   -> Prague,29,17,108
+Berlin Ridge -> Prague,0,0,108
+Train60 7p   -> Test40,16,3,85
+Train60 Conc -> Test40,1,0,84

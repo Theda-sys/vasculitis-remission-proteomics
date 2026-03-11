@@ -1,0 +1,3 @@
+Mean predicted probability: 0.536
+Observed event rate:        0.455
+Absolute difference (pred - obs): 0.082

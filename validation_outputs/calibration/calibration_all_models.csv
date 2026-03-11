@@ -1,0 +1,4 @@
+model,n,events,AUC,AUC_lower95,AUC_upper95,Brier,Brier_lower95,Brier_upper95,Permutation_p,Cal_intercept,Cal_intercept_lo95,Cal_intercept_hi95,Cal_slope,Cal_slope_lo95,Cal_slope_hi95,HL_p,Mean_pred,Observed_rate,Cal_in_the_large
+Berlin 7-protein -> Prague,108,54,0.938,0.897,0.979,0.116,0.072,0.167,0,-0.132,-1.032,0.512,0.44,0.309,0.759,0,0.535,0.5,0.035
+Train60 7-protein -> Test40,85,43,0.974,0.948,1,0.067,0.033,0.109,0,-0.436,-1.951,0.498,1.029,0.739,1.988,0.667,0.532,0.506,0.026
+Train60 Concentration -> Test40,84,43,0.908,0.847,0.968,0.127,0.08,0.177,0,-0.099,-0.867,0.526,0.804,0.574,1.29,0.079,0.531,0.512,0.019

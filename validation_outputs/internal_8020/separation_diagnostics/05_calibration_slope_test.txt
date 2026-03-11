@@ -1,0 +1,3 @@
+Calibration intercept (test): -2.9858
+Calibration slope (test):     0.9284
+H-L p (test, g=5): 0.0000

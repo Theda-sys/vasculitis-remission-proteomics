@@ -1,0 +1,5 @@
+GLM-7  AUC = 0.975 (95% CI: 0.920–1.000)
+Firth  AUC = 0.975 (95% CI: 0.920–1.000)
+ΔAUC (GLM − Firth) = 0.0000
+GLM   cal on test: intercept=-2.986, slope=0.928
+Firth cal on test: intercept=-3.162, slope=1.300

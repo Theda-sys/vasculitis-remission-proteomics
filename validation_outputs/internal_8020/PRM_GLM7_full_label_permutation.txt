@@ -1,0 +1,3 @@
+Full-cohort AUC = 0.978
+Permutation test AUC (full cohort): p < 1/2001 (p < 0.000500)
+Effective permutations (non-NA): 2000

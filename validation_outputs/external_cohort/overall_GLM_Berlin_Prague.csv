@@ -1,0 +1,2 @@
+model,n,events,AUC,AUC_lo,AUC_hi,Brier,Brier_lo,Brier_hi,Cal_intercept,Cal_slope,HL_p,Sens,Sens_lo,Sens_hi,Spec,Spec_lo,Spec_hi,PPV,PPV_lo,PPV_hi,NPV,NPV_lo,NPV_hi,TP,TN,FP,FN
+Berlin GLM,108,54,0.938,0.897,0.979,0.116,0.072,0.166,-0.132,0.44,0,0.87,0.751,0.946,0.796,0.665,0.894,0.81,0.686,0.901,0.86,0.733,0.942,47,43,11,7

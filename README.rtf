@@ -1,0 +1,96 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red201\green206\blue214;\red255\green255\blue255;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c82854\c84426\c87068;\cssrgb\c100000\c100000\c100000\c0;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\qj\partightenfactor0
+
+\f0\fs32 \cf2 \expnd0\expndtw0\kerning0
+# Towards a proteomic plasma biomarker panel for diagnosing vasculitis remission\
+\'a0\
+Uwe Jerke*, Marieluise Kirchner*, Theda UP Bartolomaeus*, \
+Lovis Kling, Vojtech Kratky, Zdenka Hruskova, Vladimir Tesar, \
+Kai-Uwe Eckardt, Adrian Schreiber, Sofia Forslund\'a7, Philipp Mertins\'a7, \
+Ralph Kettritz\'a7\'a0 \
+* equal first authorship \'b7 \'a7 equal senior/corresponding authorship\
+\'a0\
+**Affiliations:** ECRC & Max Delbr\'fcck Center (MDC), Berlin \'b7 BIH at \
+Charit\'e9 & MDC, Berlin \'b7 Charit\'e9 Department of Nephrology, Berlin \'b7 \
+Charles University, Prague\
+\'a0\
+---\
+\'a0\
+## Overview\
+\'a0\
+Active ANCA-associated vasculitis (AAV) requires intensive \
+immunosuppressive therapy, but continued treatment after remission \
+causes serious harm. Routine markers such as CRP and ANCA lack \
+sensitivity and specificity for remission status. This repository \
+contains all analysis code, frozen model objects, and reproducibility \
+documentation for a multi-stage machine learning pipeline that \
+identifies and validates a 7-protein plasma panel (AHSG, CLEC3B, COMP, \
+F9, LRG1, MCAM, MRC1) for diagnosing remission in AAV. The panel was \
+developed in a discovery cohort using targeted PRM-MS proteomics \
+and validated in an independent external cohort and a pooled 60/40 \
+re-split.\
+\'a0\
+---\
+\'a0\
+## Repository structure\
+```\
+vasculitis-remission-proteomics/\
+\uc0\u9474 \
+\uc0\u9500 \u9472 \u9472  data/\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  splits/\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 # Frozen 80/20 and 60/40 train/test indices\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  processed/\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 # Anonymised combined cohort data (TQL intensities)\
+\uc0\u9474 \'a0\'a0 \u9492 \u9472 \u9472  feature_selection/\'a0\'a0\'a0\'a0\'a0\'a0\'a0 # LASSO and Boruta output tables\
+\uc0\u9474 \
+\uc0\u9500 \u9472 \u9472  scripts/\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  01_feature_selection/\'a0\'a0\'a0\'a0 # MetaDeconfoundR, LASSO, Boruta\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  02_model_fitting/\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 # GLM, Ridge, Firth models\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  03_validation/\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 # Calibration, permutation, overfitting tests\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  04_subgroup/\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 # MPO / PR3 subgroup analyses\
+\uc0\u9474 \'a0\'a0 \u9492 \u9472 \u9472  05_clinical_utility/\'a0\'a0\'a0\'a0\'a0 # DCA, clinical marker comparisons, Cox analysis\
+\uc0\u9474 \
+\uc0\u9500 \u9472 \u9472  models/\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 # Archived .rds model objects (frozen)\
+\uc0\u9474 \
+\uc0\u9500 \u9472 \u9472  validation_outputs/\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  internal_8020/\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 # Berlin 20% internal test set results\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  pooled_6040/\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 # Primary validation (Train60 / Test40)\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  concentration/\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 # Concentration-based model results\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  external_cohort/\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 # Berlin \u8594  Prague external validation\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  ridge_sensitivity/\'a0\'a0\'a0\'a0\'a0\'a0\'a0 # Ridge post-hoc sensitivity analysis\
+\uc0\u9474 \'a0\'a0 \u9500 \u9472 \u9472  calibration/\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 # Calibration plots and metrics\
+\uc0\u9474 \'a0\'a0 \u9492 \u9472 \u9472  overfitting/\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0 # Permutation and bootstrap overfitting tests\
+\uc0\u9474 \
+\uc0\u9492 \u9472 \u9472  supplementary_tables/\
+\'a0\'a0\'a0 \uc0\u9492 \u9472 \u9472  extended_methods.pdf\'a0\'a0\'a0\'a0\'a0 # Full reproducibility documentation\
+```\
+\'a0\
+---\
+\'a0\
+## Reproducibility\
+\'a0\
+\pard\pardeftab720\sl368\sa213\qj\partightenfactor0
+\cf2 All analysis steps are documented chronologically in `supplementary_tables/extended_methods.pdf`. Frozen model objects (`.rds`) and predicted probabilities are provided to allow exact reproduction of all reported figures and tables without re-running the full pipeline. \
+Random seeds used: 123 (80/20 split), 42 (LASSO CV folds), 1234 (Boruta), 7 (60/40 split and AUC bootstrap), 1234 for pooled NB; 2023 for a separate DCA bootstrap (DCA bootstrap).\
+\pard\pardeftab720\qj\partightenfactor0
+\cf2 \
+---\
+\'a0\
+## Data access\
+\'a0\
+Patient-level proteomics data are available upon reasonable request \
+subject to a data sharing agreement, in accordance with the ethical \
+approval governing this study. Please contact the corresponding authors \
+at tubartol@uio.no\
+\'a0\
+\pard\pardeftab720\sl368\sa213\qj\partightenfactor0
+\cf2 ---\
+\pard\pardeftab720\qj\partightenfactor0
+
+\fs24 \cf3 \cb4 \
+}

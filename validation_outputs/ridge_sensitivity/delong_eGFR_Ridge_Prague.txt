@@ -1,0 +1,10 @@
+
+	DeLong's test for two ROC curves
+
+data:  res_egfr_low$roc_obj and res_egfr_high$roc_obj
+D = 0.30081, df = 59.906, p-value = 0.7646
+alternative hypothesis: true difference in AUC is not equal to 0
+sample estimates:
+AUC of roc1 AUC of roc2 
+  0.9481481   0.9341564 
+

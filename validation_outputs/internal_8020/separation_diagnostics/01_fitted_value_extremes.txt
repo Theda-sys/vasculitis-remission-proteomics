@@ -1,0 +1,5 @@
+Train n = 88
+Fitted probs < 0.001: 21
+Fitted probs > 0.999: 8
+Total extreme: 29 (33.0%)
+Separation flag (>20%): YES — quasi-complete separation

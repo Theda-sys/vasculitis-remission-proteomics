@@ -1,0 +1,3 @@
+model,n,events,AUC,AUC_lower95,AUC_upper95,Brier,Brier_lower95,Brier_upper95,Permutation_p,Cal_intercept,Cal_slope,HL_p,Mean_pred,Observed_rate,Cal_in_the_large
+Berlin GLM -> Prague,108,54,0.938,0.897,0.979,0.116,0.072,0.167,0,-0.132,0.44,0,0.535,0.5,0.035
+Berlin Ridge -> Prague,108,54,0.947,0.911,0.984,0.105,0.078,0.134,0,-0.198,1.698,0.291,0.495,0.5,-0.005

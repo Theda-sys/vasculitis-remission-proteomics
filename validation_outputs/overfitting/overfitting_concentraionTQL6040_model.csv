@@ -1,0 +1,2 @@
+model,test_type,train_AUC,test_AUC,observed_gap,permutation_p,n_perm_usable,interpretation
+Train60 Concentration -> Test40,Refit permutation (train-test AUC gap),0.948,0.908,0.041,0.3003,2000,No strong overfitting

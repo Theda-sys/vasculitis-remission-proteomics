@@ -1,0 +1,2 @@
+"model","n_test","events_test","AUC","AUC_delong_lo","AUC_delong_hi","AUC_boot_lo","AUC_boot_hi","Brier","Brier_lo","Brier_hi","Cal_intercept","Cal_intercept_lo95","Cal_intercept_hi95","Cal_slope","Cal_slope_lo95","Cal_slope_hi95","HL_p"
+"PRM GLM-7",22,10,0.975,0.92,1,0.8974,1,0.06952,0.00011,0.18365,-2.9858,-128.9115,-1.1949,0.9284,0.5823,21.4694,0

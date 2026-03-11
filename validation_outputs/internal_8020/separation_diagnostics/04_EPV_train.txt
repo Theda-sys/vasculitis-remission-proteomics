@@ -1,0 +1,4 @@
+Events in train: 41
+Predictors: 7
+EPV: 5.86
+EPV flag: BELOW guideline (<10)

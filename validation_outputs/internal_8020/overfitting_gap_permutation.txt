@@ -1,0 +1,6 @@
+Train AUC:        0.9829
+Test  AUC:        0.9750
+Observed gap:     0.0079
+Permutation n:    1000
+Permutation p:    0.6294
+Verdict: No strong overfitting

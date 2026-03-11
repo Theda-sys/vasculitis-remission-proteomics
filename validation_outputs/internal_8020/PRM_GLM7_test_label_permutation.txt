@@ -1,0 +1,2 @@
+Permutation test AUC (test set): p < 1/2001 (p < 0.000500)
+Effective permutations (non-NA): 2000

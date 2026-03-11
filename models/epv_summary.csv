@@ -1,0 +1,4 @@
+training_set,remission,active,n_predictors,EPV
+Berlin training set (7-protein),51,53,7,7.29
+Train60 set (7-protein),62,65,7,8.86
+Train60 set (concentration model),62,62,7,8.86

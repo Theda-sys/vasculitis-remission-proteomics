@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='396.00pt' height='374.40pt' viewBox='0 0 396.00 374.40'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHwzOTYuMDB8MC4wMHwzNzQuNDA='>
+    <rect x='0.00' y='0.00' width='396.00' height='374.40' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHwzOTYuMDB8MC4wMHwzNzQuNDA=)'>
+<text x='212.40' y='11.63' text-anchor='middle' style='font-size: 14.40px; font-weight: bold; font-family: "Arial";' textLength='329.22px' lengthAdjust='spacingAndGlyphs'>ROC — Concentration model (Train60 → Test40)</text>
+<text x='212.40' y='28.91' text-anchor='middle' style='font-size: 14.40px; font-weight: bold; font-family: "Arial";' textLength='111.20px' lengthAdjust='spacingAndGlyphs'>n=84, events=43</text>
+<text x='212.40' y='362.88' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='74.02px' lengthAdjust='spacingAndGlyphs'>1 – Specificity</text>
+<text transform='translate(20.16,172.80) rotate(-90)' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='54.02px' lengthAdjust='spacingAndGlyphs'>Sensitivity</text>
+<polygon points='59.04,315.36 365.76,315.36 365.76,30.24 59.04,30.24 ' style='stroke-width: 0.75;' />
+<line x1='344.40' y1='315.36' x2='80.40' y2='315.36' style='stroke-width: 0.75;' />
+<line x1='344.40' y1='315.36' x2='344.40' y2='322.56' style='stroke-width: 0.75;' />
+<line x1='291.60' y1='315.36' x2='291.60' y2='322.56' style='stroke-width: 0.75;' />
+<line x1='238.80' y1='315.36' x2='238.80' y2='322.56' style='stroke-width: 0.75;' />
+<line x1='186.00' y1='315.36' x2='186.00' y2='322.56' style='stroke-width: 0.75;' />
+<line x1='133.20' y1='315.36' x2='133.20' y2='322.56' style='stroke-width: 0.75;' />
+<line x1='80.40' y1='315.36' x2='80.40' y2='322.56' style='stroke-width: 0.75;' />
+<text x='80.40' y='341.28' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>1.0</text>
+<text x='133.20' y='341.28' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>0.8</text>
+<text x='186.00' y='341.28' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>0.6</text>
+<text x='238.80' y='341.28' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>0.4</text>
+<text x='291.60' y='341.28' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>0.2</text>
+<text x='344.40' y='341.28' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>0.0</text>
+<line x1='59.04' y1='304.80' x2='59.04' y2='40.80' style='stroke-width: 0.75;' />
+<line x1='59.04' y1='304.80' x2='51.84' y2='304.80' style='stroke-width: 0.75;' />
+<line x1='59.04' y1='252.00' x2='51.84' y2='252.00' style='stroke-width: 0.75;' />
+<line x1='59.04' y1='199.20' x2='51.84' y2='199.20' style='stroke-width: 0.75;' />
+<line x1='59.04' y1='146.40' x2='51.84' y2='146.40' style='stroke-width: 0.75;' />
+<line x1='59.04' y1='93.60' x2='51.84' y2='93.60' style='stroke-width: 0.75;' />
+<line x1='59.04' y1='40.80' x2='51.84' y2='40.80' style='stroke-width: 0.75;' />
+<text transform='translate(41.76,304.80) rotate(-90)' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>0.0</text>
+<text transform='translate(41.76,252.00) rotate(-90)' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>0.2</text>
+<text transform='translate(41.76,199.20) rotate(-90)' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>0.4</text>
+<text transform='translate(41.76,146.40) rotate(-90)' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>0.6</text>
+<text transform='translate(41.76,93.60) rotate(-90)' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>0.8</text>
+<text transform='translate(41.76,40.80) rotate(-90)' text-anchor='middle' style='font-size: 12.00px; font-family: "Arial";' textLength='16.67px' lengthAdjust='spacingAndGlyphs'>1.0</text>
+</g>
+<defs>
+  <clipPath id='cpNTkuMDR8MzY1Ljc2fDMwLjI0fDMxNS4zNg=='>
+    <rect x='59.04' y='30.24' width='306.72' height='285.12' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNTkuMDR8MzY1Ljc2fDMwLjI0fDMxNS4zNg==)'>
+<line x1='59.04' y1='326.16' x2='365.76' y2='19.44' style='stroke-width: 0.75; stroke: #A9A9A9;' />
+<polyline points='344.40,40.80 337.96,40.80 331.52,40.80 325.08,40.80 318.64,40.80 312.20,40.80 305.77,40.80 299.33,40.80 292.89,40.80 286.45,40.80 280.01,40.80 273.57,40.80 267.13,40.80 260.69,40.80 254.25,40.80 254.25,46.94 247.81,46.94 241.38,46.94 234.94,46.94 228.50,46.94 222.06,46.94 215.62,46.94 209.18,46.94 202.74,46.94 196.30,46.94 189.86,46.94 183.42,46.94 176.99,46.94 170.55,46.94 164.11,46.94 164.11,53.08 157.67,53.08 157.67,59.22 157.67,65.36 157.67,71.50 151.23,71.50 144.79,71.50 144.79,77.64 144.79,83.78 144.79,89.92 144.79,96.06 138.35,96.06 131.91,96.06 131.91,102.20 125.47,102.20 125.47,108.33 125.47,114.47 119.03,114.47 119.03,120.61 119.03,126.75 112.60,126.75 106.16,126.75 99.72,126.75 93.28,126.75 86.84,126.75 86.84,132.89 86.84,139.03 86.84,145.17 86.84,151.31 86.84,157.45 86.84,163.59 86.84,169.73 86.84,175.87 86.84,182.01 86.84,188.15 86.84,194.29 86.84,200.43 86.84,206.57 80.40,206.57 80.40,212.71 80.40,218.85 80.40,224.99 80.40,231.13 80.40,237.27 80.40,243.40 80.40,249.54 80.40,255.68 80.40,261.82 80.40,267.96 80.40,274.10 80.40,280.24 80.40,286.38 80.40,292.52 80.40,298.66 80.40,304.80 ' style='stroke-width: 1.65; stroke: #C70000;' />
+<line x1='59.04' y1='19.44' x2='365.76' y2='326.16' style='stroke-width: 0.75; stroke: #999999; stroke-dasharray: 1.00,3.00;' />
+<line x1='204.67' y1='301.44' x2='222.38' y2='301.44' style='stroke-width: 1.65; stroke: #C70000;' />
+<text x='231.24' y='299.06' style='font-size: 9.84px; font-family: "Arial";' textLength='130.09px' lengthAdjust='spacingAndGlyphs'>7-protein concentration model</text>
+<text x='231.24' y='310.86' style='font-size: 9.84px; font-family: "Arial";' textLength='120.52px' lengthAdjust='spacingAndGlyphs'>AUC = 0.908 (0.847–0.968)</text>
+</g>
+</g>
+</svg>
