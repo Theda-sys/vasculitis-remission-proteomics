@@ -4,7 +4,6 @@ Uwe Jerke*, Marieluise Kirchner*, Theda U.P. Bartolomaeus*,
 Lovis Kling, Vojtech Kratky, Zdenka Hruskova, Vladimir Tesar,
 Kai-Uwe Eckardt, Adrian Schreiber, Sofia Forslund†, Philipp Mertins†,
 Ralph Kettritz†
-
 * Equal first authorship
 † Equal senior / corresponding authorship
 
