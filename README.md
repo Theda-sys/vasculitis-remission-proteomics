@@ -9,10 +9,8 @@ Ralph Kettritz†
 † Equal senior / corresponding authorship
 
 **Affiliations**
-ECRC & Max Delbrück Center (MDC), Berlin
-BIH at Charité & MDC, Berlin
-Charité Department of Nephrology, Berlin
-Charles University, Prague
+Experimental and Clinical Research Center (ECRC) and Department of Nephrology and Medical Intensive Care, Charité - Universitätsmedizin Berlin, Berlin, Germany; Max Delbruck Center (MDC) for Molecular Medicine, Berlin, Germany; Berlin Institute of Health (BIH) at Charité - Universitätsmedizin Berlin, Berlin, Germany; Charles University, Prague, Czech Republic; Centre for Ecological and Evolutionary Synthesis (CEES), Department of Biosciences, University of Oslo, Oslo, Norway.
+
 
 ---
 
