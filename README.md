@@ -89,7 +89,7 @@ Random seeds used:
 
 ## Data access
 
-Patient-level proteomics data are available upon reasonable request under a data-sharing agreement in accordance with the ethical approval governing this study.
+Patient-level proteomics data are available upon reasonable request under a data-sharing agreement in accordance with the ethical approval governing this study (Ethics board of Charité - Universitätsmedizin Berlin).
 
 Contact:
 **[tubartol@uio.no](mailto:tubartol@uio.no)**
